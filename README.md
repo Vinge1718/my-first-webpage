@@ -4,12 +4,9 @@
 - Vinge1718  
 
 ## Project files  
-- favorite-things.HTML
-- my-first-webpage.HTML
-- desert.jpg
-- meadow.jpg
+- index.html
 ## Project description  
-The files points out on some of my basic understandings of web design so far.
+The files points out on some of my basic understandings ofjavascript so far.
 It contains examples of various tags in HTML and CSS implemented on a site
 
 ## How to install/Use  

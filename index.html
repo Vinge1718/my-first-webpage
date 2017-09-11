@@ -1,35 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="CSS/mystyles.css" rel="stylesheet" type="text/css"
-      <title>Micheal's <em>favourite</em> things</title>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/calculator.js"></script>
+    <link type="text/css" rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="./CSS/calculator.css">
+    <title>calculator</title>
   </head>
   <body>
-     <h1><div>Myfavourite things</div></h1>
-     <h2>These are afew of my favourite things</h2>
-     <img src="images/meadow.jpg" alt="a photo of a meadow" height="400px"/><br />
-     <a href="https://www.youtube.com/"> Youtube</a> <br />
-     <p>Another one of my favourite stuff includes work that ive aleady done
-       <a href="my-first-webpage.html"> HTML file that i created earlier<a/></p>
+    <h1>Calculator</h1><br>
+    <form id="add">
 
-     <h3>People</h3>
-     <p>Here are some of my <strong>favourite</strong> people!</p>
-     <ul>
-       <li>My brother Christopher</li>
-       <li>My mom and dad</li>
-       <li>Steve</li>
-       <li>Chepng'etich</li>
-       <li>My friend Nkatha</li>
-       <li>My friend Kamau</li>
-     </ul>
-     <h3>Flavor of ice cream</h3>
-     <p>These are my three favourites, in order</p>
-     <img src="images/desert.jpg" alt="picture of sand dunes in the desert" height="500px">
-     <ol>
-       <li>Pistachio</li>
-       <li>Malted milk chocolate</li>
-       <li>Black licorice (really!)</li>
-     </ol>
-     <p>Thanks for reading about me!</p>
+      <div class="form-group">
+        <label for="add1">First number</label>
+        <input type="text" class="form-control" id="add1">
+      </div>
+
+      <div class="form-group">
+        <label for="add2">Second number</label>
+        <input type="text" class="form-control" id="add2">
+      </div>
+
+      <button type="submit" class="btn">Add!</button>
+
+    </form>
+
+    <div id="add-output">
+
+    </div>
+
+    <hr><br>
+
+    <form id="subtract">
+
+      <div class="form-group">
+        <label for="subtract1">First number</label>
+        <input type="text" class="form-control" id="subtract1">
+      </div>
+
+      <div class="form-group">
+        <label for="subtract2">Second number</label>
+        <input type="text" class="form-control" id="subtract2">
+      </div>
+
+      <button type="submit" class="btn">subtract!</button>
+
+
+
+    </form>
+
+    <div id="subtract-output">
+
+    </div>
+
   </body>
 </html>
