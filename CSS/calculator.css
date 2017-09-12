@@ -1,0 +1,13 @@
+.jumbotron{
+  text-align: center;
+}
+#gameOutput{
+  list-style: none;
+}
+h3{
+  text-align: center;
+  text-decoration: underline;
+}
+#container{
+  text-align: center;
+}
