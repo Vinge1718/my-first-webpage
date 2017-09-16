@@ -6,8 +6,14 @@
 ## Project files  
 - index.html
 ## Project description  
-The files points out on some of my basic understandings ofjavascript so far.
-It contains examples of various tags in HTML and CSS implemented on a site
+The files points out on some of my basic understandings of javascript so far.
+
+
+A web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
+
+1. Numbers divisible by 3 are replaced with "ping"
+2. Numbers divisible by 5 are replaced with "pong"
+3. Numbers divisible by 15 are replaced with "pingpong"
 
 ## How to install/Use  
 1. Make sure you have a browser installed (recommend:google chrome)
